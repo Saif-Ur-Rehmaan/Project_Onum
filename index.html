@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 1344 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onum-SEO Digital Marketing And</title>
+    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
+    <!-- css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css"
+        integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/index.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="preloder" id="prelod">
+        <div id="img-fil">
+            <svg id="img_overlay">
+                <img src="images/preloder.svg" alt="">
+            </svg>
+        </div>
+        <div id="counter" style="font-weight: bolder;">
+            0
+        </div>
+    </div>
+    <script>
+        function counter() {
+            var count = setInterval(function () {
+                let div_C = document.getElementById("counter")
+                var c = parseInt(div_C.innerText);
+                ++c;
+                let img_overlay = document.getElementById("img_overlay");
+                img_overlay.style.translate = `0 ${-(c + 10) + 'px'}`
+                div_C.innerText = c + "%";
+
+                if (c == 100) {
+                    clearInterval(count);
+                    let prelod = document.getElementById("prelod");
+                    prelod.classList.add("hide");
+                }
+            }, 30)
+        }
+        counter()
+    </script>
+    <div id="up-scrolling-btn">
+        <i class="fa fa-arrow-up" style="color: inherit; font-size: inherit;"></i>
+    </div>
+    <div class="header" id="hd">
+        <div style="height:128px">
+            <nav class="nav" id="nv-st-sc">
+                <div class="nav-row-1">
+                    <a href="index.html">
+
+                        <img src="icons/logo.svg" alt="logo" id="logo">
+
+                    </a>
+                </div>
+                <ul class="nav-row-2">
+                    <li class="li-nv-dpdn-hover-btn li-1">
+                        <a href="" class="active nav-links li-anima">
+                            Home
+                            <i class="fa fa-angle-down opacity-drp-icon"></i>
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-1">
+                            <div class="home">
+                                <div style="text-align:center;">
+                                    <img src="images/home/01_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+                                    <img src="images/home/02_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+                                    <img src="images/home/03_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+                                    <img src="images/home/04_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+                                    <img src="images/home/05_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+                                    <img src="images/home/06_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+                                    <img src="images/home/07_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                                <div style="text-align:center;">
+
+                                    <img src="images/home/08_Home-min.jpg" alt="1"
+                                        style="box-shadow: 0 0 2rem rgba(0, 0, 0, 0.201); margin:.5rem 0;border-radius: 1rem;">
+                                    <h4>
+                                        <span style="color: rgb(0, 195, 255);">01 . </span>
+                                        Main home
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-2">
+                        <a href="" class=" nav-links li-anima">
+                            Pages
+                            <i class="fa fa-angle-down opacity-drp-icon"></i>
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-2">
+                            <div class="pages">
+                                <table>
+                                    <tr>
+                                        <th>&nbsp;&nbsp; COMPANY</th>
+                                        <th>&nbsp;&nbsp; HEADER LAYOUTS</th>
+                                        <th>&nbsp;&nbsp; ELEMENTS</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td ssa"> About us</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 1</td>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">Our Team</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 2</td>
+                                        <td class="nav-hvt nav-link-2-td">Testimonial</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">Single Team</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 3</td>
+                                        <td class="nav-hvt nav-link-2-td">Icon Box</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">Our Process</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 4</td>
+                                        <td class="nav-hvt nav-link-2-td">Servics Box</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">FAQ's</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 5</td>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">Coming Soon</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 6</td>
+                                        <td class="nav-hvt nav-link-2-td">Counters</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">404 Error</td>
+                                        <th>&nbsp;&nbsp; FOOTER LAYOUTS</th>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <th>&nbsp;&nbsp; ONLINE STORE</th>
+                                        <td class="nav-hvt nav-link-2-td">Header 1</td>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">About us</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 1</td>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">About us</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 1</td>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">About us</td>
+                                        <td class="nav-hvt nav-link-2-td">Header 1</td>
+                                        <td class="nav-hvt nav-link-2-td">Pricing Table</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="nav-hvt nav-link-2-td">About us</td>
+                                        <td class="nav-hvt nav-link-2-td"></td>
+                                        <td class="nav-hvt nav-link-2-td"></td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <img src="images/watch.png" alt="ax">
+                        </div>
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-3">
+                        <a href="" class=" nav-links li-anima">
+                            Services
+                            <i class="fa fa-angle-down opacity-drp-icon"></i>
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-3">
+                            <ul class="services">
+                                <li class="nav-hvt">Content making</li>
+                                <li class="nav-hvt">App Development</li>
+                                <li class="nav-hvt">Search Engine optimization</li>
+                                <li class="nav-hvt">PPC Managenments</li>
+                                <li class="nav-hvt">Social Media Markiting</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-4">
+                        <a href="" class=" nav-links li-anima">
+                            Portfolio
+                            <i class="fa fa-angle-down opacity-drp-icon"></i>
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-4">
+                            <ul class="portfolio">
+                                <li class="nav-hvt">Portfolio</li>
+                                <li class="nav-hvt">Portfolio Grid</li>
+                                <li class="nav-hvt">Portfolio Grid 2</li>
+                                <li class="nav-hvt">Portfolio cesel</li>
+                                <li class="nav-hvt">Portfolio cesel 2</li>
+                                <li class="nav-hvt">Portfolio cesel 1</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-5">
+                        <a href="" class=" nav-links li-anima">
+                            Blog
+                            <i class="fa fa-angle-down opacity-drp-icon"></i>
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-4">
+                            <ul class="portfolio">
+                                <li class="nav-hvt">Blog List </li>
+                                <li class="nav-hvt">Blog Grid</li>
+                                <li class="nav-hvt">Blog Single</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li-nv-dpdn-hover-btn li-6">
+                        <a href="" class=" nav-links li-anima">
+                            Contacts
+                            <i class="fa fa-angle-down opacity-drp-icon"></i>
+                        </a>
+                        <div class="drop-down-of-nav  nav-link-4">
+                            <ul class="portfolio">
+                                <li class="nav-hvt">Portfolio</li>
+                                <li class="nav-hvt">Portfolio Grid</li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="nav-row-3">
+                    <div class="cart-icon-1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="cart-items">
+                            <span style="opacity: .5; text-transform:capitalize;font-weight:600"> no product in the
+                                cart</span>
+                        </div>
+                    </div>
+                    <div class="search-icon-2" id="search-icon-2">
+                        <i class="fa fa-search"
+                            style="width: inherit; height:inherit ;display: flex;justify-content: center;align-items: center; cursor: pointer;"
+                            id="CI1"></i>
+                        <div class="cart-items" id="CI2">
+                            <div class="nav-search-bar">
+                                <input type="text" placeholder="Search...">
+                                <div class="button">
+                                    <i class="fa fa-search" style="color: inherit;"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="search-icon-3">
+                        <a href="#"
+                            style="width: fit-content; height:fit-content; display:flex;justify-content:center;align-items: center;">
+                            <svg class="dots"></svg>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content">
+            <div class="hc-div1">
+                <h3>CHANGE YOUR VIEW OF SEO</h3>
+                <h1>Ready To Be The First Page Of Google?</h1>
+                <h4>We bet you don't spend much time on the second page of <br> Google - so why shoul your website</h4>
+                <div class="row-header-content">
+                    <div class="hover-btn">
+                        <p>Start Now</p>
+                        <div class="button" style="background-color: white; color: rgb(254, 76, 28) ;">
+                            <i class="fa-solid fa-arrow-right" style="color: inherit;"></i>
+                        </div>
+                    </div>
+                    <div class="video-player video-function_class">
+                        <div class="button">
+                            <i class="fa-solid fa-play" style="color: inherit; font-size: 1.2rem;"></i>
+                        </div>
+                    </div>
+                    <h5 style="font-size: 1.1rem;">How It Works</h5>
+                </div>
+            </div>
+            <img src="images/header/header-home3.png" alt="">
+        </div>
+        <div class="social-media-icons">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></a></i></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></a></i></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></a></i></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="company-slider">
+        <div id="slide-items">
+            <img src="images/c-logo1-1.png" class="item  " alt="">
+            <img src="images/c-logo2-1.png" class="item  " alt="">
+            <img src="images/c-logo3-1.png" class="item  " alt="">
+            <img src="images/c-logo4-1.png" class="item " alt="">
+            <img src="images/c-logo5-1.png" class="item  " alt="">
+            <img src="images/c-logo6-1.png" class="item  " alt="">
+        </div>
+    </div>
+    <section class="section-2">
+        <div class="container-sec-2">
+            <div class="div1-con-sec-2">
+                <h6>
+                    <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                    HOW TO GET STARTED
+                    <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                </h6>
+                <h1>Few Simple Steps <br>for Successful Bussiness </h1>
+            </div>
+            <div class="div2">
+                <div class="card-div2 c-bfr-d2">
+
+                    <div class="d2-card d201">
+                        <img src="images/sec2/p1.png" alt="">
+                        <h2>Project introduction</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor </p>
+                    </div>
+                </div>
+                <div class="card-div2">
+                    <div class="d2-card d202">
+                        <img src="images/sec2/p2.png" alt="">
+                        <h2>Project introduction</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor </p>
+                    </div>
+                </div>
+                <div class="card-div2 c-aft-d2">
+                    <div class="d2-card d203">
+                        <img src="images/sec2/p3.png" alt="">
+                        <h2>Project introduction</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3" id="sec-3">
+        <div class="container-sec-3">
+            <h6>
+                <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                HOW TO GET STARTED
+            </h6>
+            <h1>Work with a Dedicated SEO Company</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, dicta. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Consectetur, nesciunt?</p>
+            <div class="progress-bar">
+                <div class="div-progress-bar1 ">
+                    <p><span>keyword research</span> <span>70%</span></p>
+                    <div class="bar"><span class="b" data-progress-value="70"></span></div>
+                </div>
+                <div class="div-progress-bar1 ">
+                    <p><span>Technical SEO Audit</span> <span>80%</span></p>
+                    <div class="bar"><span class="b" data-progress-value="80"></span></div>
+                </div>
+                <div class="div-progress-bar1 ">
+                    <p><span>Content Optamization</span> <span>60%</span></p>
+                    <div class="bar"><span class="b" data-progress-value="60"></span></div>
+                </div>
+            </div>
+        </div>
+        <img src="images/about/about-home3.png" alt="">
+    </section>
+    <section class="section-4">
+        <div class="container-sec-4">
+            <h1 style="font-size: 3rem;color: inherit;font-weight: inherit;">Know your SEO Score!</h1>
+            <div class="r3 input-url-mail-btn">
+                <div id="E-U-bar">
+                    <input type="text" class="url" placeholder="Your Website Url">
+                    <input type="text" class="mail" id="mail" placeholder="Email">
+                    <div class="hover-btn">
+                        <p style="width: 5rem;">Start Now</p>
+                        <div class="button" style="background-color: white; color: rgb(254, 76, 28) ;">
+                            <i class="fa-solid fa-arrow-right" style="color: inherit;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section-5">
+        <div class="container-sec-5">
+            <div class="div1-c5">
+                <div class="card-div ">
+                    <div class="card">
+                        <div class="card-btn-icon">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="content-box">
+                            <a href="#"
+                                style="font-size: 1.2rem; text-decoration: none;color: inherit;font-weight: 700;transition-duration: .5s;">All
+                                Size Bussiness</a>
+                            <p>We have seen greate success with everyone companies</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="card-div">
+                    <div class="card ">
+                        <div class="card-btn-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="content-box">
+                            <a href="#"
+                                style="font-size: 1.2rem; text-decoration: none;color: inherit;font-weight: 700;transition-duration: .5s;">All
+                                Size Bussiness</a>
+                            <p>We have seen greate success with everyone companies</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="card-div">
+                    <div class="card ">
+                        <div class="card-btn-icon">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+                        <div class="content-box">
+                            <a href="#"
+                                style="font-size: 1.2rem; text-decoration: none;color: inherit;font-weight: 700;transition-duration: .5s;">All
+                                Size Bussiness</a>
+                            <p>We have seen greate success with everyone companies</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="card-div">
+                    <div class="card">
+                        <div class="card-btn-icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <div class="content-box">
+                            <a href="#"
+                                style="font-size: 1.2rem; text-decoration: none;color: inherit;font-weight: 700;transition-duration: .5s;">All
+                                Size Bussiness</a>
+                            <p>We have seen greate success with everyone companies</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="div2-c5">
+                <h6>
+                    <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                    About Us
+                </h6>
+                <h1>Grow Your Bussiness <br>With Our SEO Agency</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, dicta. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Consectetur, nesciunt?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, dicta. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Consectetur, nesciunt?
+                </p>
+                <div class="about-us-number-collection">
+                    <div>
+                        <h2
+                            style="color: rgba(0, 0, 255, 0.735);font-size: 2.5rem;font-weight: 900; text-align: center;">
+                            330+
+                        </h2>
+                        <h3 style="font-size: 1rem; margin-top:.5rem">Active Clients</h3>
+                    </div>
+                    <div>
+                        <h2 style="color: rgba(0, 0, 255, 0.7);font-size: 2.5rem;font-weight: 900; text-align: center;">
+                            850+
+                        </h2>
+                        <h3 style="font-size: 1rem; margin-top:.5rem">Project Done</h3>
+                    </div>
+                    <div class="grid-sm-c0_2">
+                        <h2 style="color: rgba(0, 0, 255, 0.6);font-size: 2.5rem;font-weight: 900; text-align: center;">
+                            25+
+                        </h2>
+                        <h3 style="font-size: 1rem; margin-top:.5rem">Team Advisors</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-6">
+        <div class="container-sec-6">
+            <div class="div1-sec-6">
+                <div class="sec-6-d1-content">
+                    <h6>
+                        <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                        RECENT PROJECTS
+                    </h6>
+                    <h1>Our Latest Case Studies</h1>
+                    <p>If we had a `seceret sause` It would be our awsom people <br>we have only professional team!</p>
+
+                </div>
+                <div class="hover-btn" style="align-self: flex-start;">
+                    <p style="font-weight: 700;">All Work</p>
+                    <div class="button" style="background-color: white; color: rgb(254, 76, 28) ;">
+                        <i class="fa-solid fa-arrow-right" style="color: inherit;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="div2-sec-6">
+                <div class="main-scroll-div">
+                    <div class="c-divs-sec-6 slider">
+                        <div class="item-s66" style="text-align:center;">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-7-1-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-2-1-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-1-1-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-3-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-4-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-5-1-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-6-1-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-8-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-s66">
+                            <div class="sec-6-card-div">
+                                <img class="zoom" src="images/sec6/project-9-800x557.jpg" alt="">
+                                <div class="overlay">
+                                    <div class="text">
+                                        <h2>your new reality</h2>
+                                        <span style="color: rgb(4, 214, 240); font-weight: 900;">Markiting /
+                                            media</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div class="div3-sec-6">
+                    <div class="radio-btn r-active"></div>
+                    <div class="radio-btn"></div>
+                    <div class="radio-btn"></div>
+                </div> -->
+            </div>
+
+        </div>
+    </section>
+    <section class="section-7">
+        <div class="container-sec-7">
+            <div class="progress-teller-sec-7-card">
+                <span style="align-self: flex-start;">
+                    <div class="sec-7-card" data-round-progress="75">
+                        <span>
+                            75%
+                        </span>
+                    </div>
+                    <h1 style="font-weight: 600; margin-top:1rem;">SEO & Markiting</h1>
+                </span>
+            </div>
+            <div class="progress-teller-sec-7-card circular-progress">
+                <span style="align-self: flex-end;">
+                    <div class="sec-7-card" data-round-progress="43">
+                        <span class=" value-container">
+                            43%
+                        </span>
+                    </div>
+                    <h1 style="font-weight: 600; margin-top:1rem;">Keywords Reasults</h1>
+                </span>
+            </div>
+            <div class="progress-teller-sec-7-card">
+                <span style="align-self: flex-start;">
+                    <div class="sec-7-card" data-round-progress="66">
+                        <span>
+                            66%
+                        </span>
+                    </div>
+                    <h1 style="font-weight: 600; margin-top:1rem;">Google analytics</h1>
+                </span>
+            </div>
+            <div class="progress-teller-sec-7-card">
+                <span style="align-self: flex-end;">
+                    <div class="sec-7-card" data-round-progress="15">
+                        <span>
+                            15%
+                        </span>
+                    </div>
+                    <h1 style="font-weight: 600; margin-top:1rem;">Off Page SEO</h1>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="section-8 ">
+        <div class="con-8-main">
+            <div class="div1-con-sec-8">
+                <h6>
+                    <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                    OUR SERVICES
+                    <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                </h6>
+                <h1>Introduce Best <br> SEO Services for Business </h1>
+            </div>
+            <div class="container-sec-8">
+                <div class="sec_8_card">
+                    <i class="fa-solid fa-rocket" style="font-size: 2.5rem;color: rgb(1, 96, 231); "></i>
+
+                    <div class="sec_8_card_contant">
+                        <h2>Content Marketing</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Debitis, blanditiis. Dolor alias dicta veniam
+                            id animi nemo consequatur fuga ?
+                        </p>
+                    </div>
+                </div>
+                <div class="sec_8_card">
+                    <i class="fa-solid fa-rocket" style="font-size: 2.5rem;color: rgb(1, 96, 231); "></i>
+
+                    <div class="sec_8_card_contant">
+                        <h2>Content Marketing</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Debitis, blanditiis. Dolor alias dicta veniam
+                            id animi nemo consequatur fuga ?
+                        </p>
+                    </div>
+                </div>
+                <div class="sec_8_card">
+                    <i class="fa-solid fa-rocket" style="font-size: 2.5rem;color: rgb(1, 96, 231); "></i>
+
+                    <div class="sec_8_card_contant">
+                        <h2>Content Marketing</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Debitis, blanditiis. Dolor alias dicta veniam
+                            id animi nemo consequatur fuga ?
+                        </p>
+                    </div>
+                </div>
+                <div class="sec_8_card">
+                    <i class="fa-solid fa-rocket" style="font-size: 2.5rem;color: rgb(1, 96, 231); "></i>
+
+                    <div class="sec_8_card_contant">
+                        <h2>Content Marketing</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Debitis, blanditiis. Dolor alias dicta veniam
+                            id animi nemo consequatur fuga ?
+                        </p>
+                    </div>
+                </div>
+                <div class="sec_8_card">
+
+                    <i class="fa-solid fa-rocket" style="font-size: 2.5rem;color: rgb(1, 96, 231); "></i>
+
+                    <div class="sec_8_card_contant">
+                        <h2>Content Marketing</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Debitis, blanditiis. Dolor alias dicta veniam
+                            id animi nemo consequatur fuga ?
+                        </p>
+                    </div>
+                </div>
+                <div class="sec_8_card">
+
+                    <i class="fa-solid fa-rocket" style="font-size: 2.5rem;color: rgb(1, 96, 231); "></i>
+
+                    <div class="sec_8_card_contant">
+                        <h2>Content Marketing</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Debitis, blanditiis. Dolor alias dicta veniam
+                            id animi nemo consequatur fuga ?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-9">
+        <div class="sec-9-container">
+            <img src="images/bg-counter-1.jpg" alt="">
+
+            <h1 style="position: relative;height: 11rem; color: white; font-size: 3.5rem;">Take Website To Next Level!
+            </h1>
+            <div class="animated-video-div">
+                <div class="s-lyr">
+                    <div class="animated-video-bg video-function_class">
+                        <div class="button">
+                            <i class="fa-solid fa-play" style="color:inherit; font-size: 1.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-6" style="margin: 8rem 0  3rem 0;">
+        <div class="container-sec-6 sec-9div2">
+            <div class="div1-sec-6 sec-9-d1-before">
+                <div class="sec-6-d1-content">
+                    <h6>
+                        <i class="fa-solid fa-circle" style="font-size: .5rem; "></i>
+                        OUR BLOGS
+                    </h6>
+                    <h1>Our Latest Media</h1>
+                    <p>Our campaigns get your business in front of the right people at the <br>right time to increase
+                        organic traffic and boost engagement</p>
+
+                </div>
+                <div class="hover-btn" style="align-self: flex-start;">
+                    <p style="font-weight: 700;">All Work</p>
+                    <div class="button" style="background-color: white; color: rgb(254, 76, 28) ;">
+                        <i class="fa-solid fa-arrow-right" style="color: inherit;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="div2-sec-6 ">
+                <div class="con-d2-sec-6">
+                    <div class="sec-9-info-card">
+                        <img src="images/s9/post-1-750x500.jpg" alt="">
+                        <div class="btns-sec9">
+                            <button class="s9-btn">MARKETING</button>
+                            <button class="s9-btn">SEO</button>
+                        </div>
+                        <div class="sec-9-card-content">
+                            <div class="d1-sec-9">
+                                <a href="" class="s9-a">
+                                    <i class="fa fa-user" aria-hidden="true" style="transition-duration: .3s;"></i>
+                                    Tom Black
+                                </a>
+                                <a href="" class="s9-a">
+                                    <i class="fa-solid fa-clock" style="transition-duration: .3s;"></i>
+                                    November 21, 2019
+                                </a>
+                            </div>
+                            <h1>15 SEO Best Practices: <br> Website Architecture</h1>
+                            <p>The basic premise of search engine <br> reputation management is to use the...</p>
+                        </div>
+                    </div>
+                    <div class="sec-9-info-card">
+                        <img src="images/s9/post-2-750x500.jpg" alt="">
+                        <div class="btns-sec9">
+                            <button class="s9-btn">MARKETING</button>
+                            <button class="s9-btn">SEO</button>
+                        </div>
+                        <div class="sec-9-card-content">
+                            <div class="d1-sec-9">
+                                <a href="" class="s9-a">
+                                    <i class="fa fa-user" aria-hidden="true" style="transition-duration: .3s;"></i>
+                                    Tom Black
+                                </a>
+                                <a href="" class="s9-a">
+                                    <i class="fa-solid fa-clock" style="transition-duration: .3s;"></i>
+                                    November 21, 2019
+                                </a>
+                            </div>
+                            <h1>SEO Best Practices: Mobile <br> Friendliness</h1>
+                            <p>The basic premise of search engine <br> reputation management is to use the...</p>
+                        </div>
+                    </div>
+                    <div class="sec-9-info-card">
+                        <img src="images/s9/post-3-750x500.jpg" alt="">
+                        <div class="btns-sec9">
+                            <button class="s9-btn">MARKETING</button>
+                        </div>
+                        <div class="sec-9-card-content">
+                            <div class="d1-sec-9">
+                                <a href="" class="s9-a">
+                                    <i class="fa fa-user" aria-hidden="true" style="transition-duration: .3s;"></i>
+                                    Tom Black
+                                </a>
+                                <a href="" class="s9-a">
+                                    <i class="fa-solid fa-clock" style="transition-duration: .3s;"></i>
+                                    November 21, 2019
+                                </a>
+                            </div>
+                            <h1>A Guide to Google SEO <br> Algorithm Updates</h1>
+                            <p>The basic premise of search engine <br> reputation management is to use the...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="f-container-1">
+            <div class="f-div div-1_1-f">
+                <div class="f-div-first-element">
+                    <img src="icons/logo.png" alt="">
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur elit. Sint voluptatum voluptas dolores
+                    natus rem sequi quibusdam explicabo dicta vero?</p>
+                <div class="f-icons">
+                    <span class="span-f"> <i class="fa-brands fa-twitter"  style="color:rgb(76, 206, 279) ;"></i> </span>
+                    <span class="span-f"> <i class="fa-brands fa-facebook-f" style="color: rgb(45, 93, 236);"></i></span>
+                    <span class="span-f"> <i class="fa-brands fa-linkedin-in" style="color: rgb(75, 147, 229);"></i></span>
+                    <span class="span-f"> <i class="fa-brands fa-instagram" style="color: rgb(255, 158, 31);"></i></span>
+                </div>
+            </div>
+            <div class="f-div div-1_2-f">
+                <h2>Contacts</h2>
+                <p><span>Address</span>: 411 University St, Seattle, USA</p>
+                <p><span>Email</span>: onum_company@mail.com</p>
+                <p><span>Phone</span>: +1 -800-456-478-23</p>
+                <p><span>Open</span>: Mon 8:00 am - 18:00 pm</p>
+            </div>
+            <div class="f-div div-1_3-f">
+                <h2>Services</h2>
+               <a href=""> SEO for Small Business</a>
+               <a href=""> SEO for Local Services</a>
+               <a href=""> Enterprise SEO</a>
+               <a href=""> National SEO</a>
+               <a href=""> International SEO</a>
+            </div>
+            <div class="f-div div-1_4-f">
+                <h2>Gallery</h2>
+                <div class="G-F-img-div">
+                    <img src="images/sec6/project-1-1-800x557.jpg" alt="">
+                    <img src="images/sec6/project-2-1-800x557.jpg" alt="">
+                    <img src="images/sec6/project-3-800x557.jpg" alt="">
+                    <img src="images/sec6/project-4-800x557.jpg" alt="">
+                    <img src="images/sec6/project-5-1-800x557.jpg" alt="">
+                    <img src="images/sec6/project-7-1-800x557.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="f-container-2">
+            <p style="text-align: center;">Copyright © 2022 Onum by OceanThemes. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- script tags -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //slick slider
+        $(document).ready(() => {
+            $('.slider').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        })
+    </script>
+    <script src="js/index.js" defer></script>
+
+</body>
+
+</html>
